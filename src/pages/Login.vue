@@ -13,7 +13,7 @@
                 <input type="password" :class="$style.field" v-model="password">
               </div>
               <div :class="$style.forgotPasswd">
-                <a href="#">Forgot Password</a>
+                <a href="/forgotpassword/">Forgot Password</a>
               </div>
               <div :class="$style.btnStyle">
                 <button value=">" :class="$style.submit">

@@ -71,6 +71,16 @@ const router = new Router({
       }
     },
     {
+      name:"~/forgotpassword",
+      path:"/forgotpassword",
+      component: () => import(`@components/dashboard/ForgotPassword`),
+      meta: {
+        title: "Forgot Password",
+        metaTags: [],
+        noTerminal: false
+      }
+    },
+    {
       name: "~/test",
       path: "/dummy",
       component: () => import("@pages/Test")
