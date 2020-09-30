@@ -22,7 +22,7 @@ Source code for the frontend of Codefest 2020 PWA app. Uses Vue.Js library to de
 
 ### Development
 
-- First, ensure that Node.Js and NPM are installed on your system.
+- First, ensure Node.Js and NPM are installed on your system.
 - Use `npm install` to install all the dependencies.
 - For development server with hot-reload, use `npm run watch`.
 
